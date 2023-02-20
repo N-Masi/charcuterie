@@ -20,7 +20,7 @@ function App() {
               rel="noreferrer"
             >
               mailing list
-            </a> to get notifited of upcoming meetings or announcements, view our { }
+            </a> to get notified of upcoming meetings or announcements, view our { }
             <a
               className="App-link"
               href="https://docs.google.com/document/d/130l8zOTL7OrqZNrzcdUyL8Sf6hlWuUrz_XvnYiCnUNc/edit?usp=sharing"
@@ -32,7 +32,7 @@ function App() {
             or reach us by { }
             <a
               className="App-link"
-              href="mailto:charcuterie_club@brown.edu"
+              href="mailto:charcuterie@brown.edu"
               target="_blank"
               rel="noreferrer"
             >
