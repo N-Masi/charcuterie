@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#5d6747;
+}
+
+canvas {
+    border: 1px solid #000000;
+    margin-left: -288px;
+    position:absolute;
+    left : 50%;
+}
+#background {
+  z-index: 3;
+}
+#gameArea{
+  z-index: 5;
+}
+#gameObjects {
+  z-index: 4;
+}
+#gameOver {
+  z-index: 1;
+}
+#titleScreen{
+  z-index: 7;
+}
+#characterSelect{
+  z-index : 2;
+}
+#score {
+  width : 576px;
+  height:80px;
+  border: 1px solid #ad7e7e;
+  background-color: #7a6a8b;
+  position:absolute;
+  margin-left:-288px;
+  left:50%;
+  margin-top:577px;
+  font-family: "VT323",sans-serif;
+}
+#scoreText {
+  color:white;
+  font-size: 45px;
+  position: absolute;
+  right: 5%;
+  bottom: -45%;
+}
+#instructions {
+  left:2%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: -25%
+
+}
+#heart1 {
+  position:absolute;
+  top: 35%;
+  left: 5% ;
+}
+#heart2 {
+  position:absolute;
+  top: 35%;
+  left: 15% ;
+}
+#heart3 {
+  position:absolute;
+  top: 35%;
+  left: 25% ;
+}
+
+

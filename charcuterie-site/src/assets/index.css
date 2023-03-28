@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  background-image: url("background1.JPG");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* adjust this value as per your needs */
+  filter: blur(8px);
+}
+
+.content {
+  /* flex-direction: column; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: 900;
+  text-shadow: 2px 2px black;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+#logo {
+  width:200px;
+  height:auto
+}
+
+a{
+  color:aqua;
+}
