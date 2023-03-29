@@ -4,6 +4,10 @@ View online at `https://charcuterie-club.wep.app`
 
 This project was built using Node, Express, & HTML. It is deployed using Firebase.
 
+## Initial Setup
+
+To install all the required dependencies run ```npm install```
+
 ## Building Locally
 
 To host a version of the website locally:
