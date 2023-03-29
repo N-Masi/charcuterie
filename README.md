@@ -2,21 +2,21 @@
 
 View online at `https://charcuterie-club.wep.app`
 
-This project was built in React and hosted on Firebase.
+This project was built using Node, Express, & HTML. It is deployed using Firebase.
 
 ## Building Locally
 
 To host a version of the website locally:
 ```
-cd charcuterie-site
-npm start
+node charcuterie-site/public/index.js
 ```
-You can then view the website at `http://localhost:3000/` in a browser
+You can then view the website at `http://localhost:13370/` in a browser
 
 ## Deploying
 
-```
-cd charecuterie-site
-npm run build
-firebase deploy
-```
+TBD
+
+## TODO:
+
+* add background to game & a button back to homepage
+* deploy to firebase
