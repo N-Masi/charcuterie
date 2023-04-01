@@ -18,7 +18,10 @@ You can then view the website at `http://localhost:13370/` in a browser
 
 ## Deploying
 
-TBD
+Go to the charcuterie-site directory
+Make sure ```firebase-tools``` is npm installed
+In terminal run ```firebase login``` to and sign in to whatever firebase account is connected to the firebase project
+In terminal run ```firebase deploy```. (You may have an issue that says this can't be deployed because running scripts is disabled on this system. In this case, simply delete the `firebase.ps1` file from your firebase directory and retry)
 
 ## TODO:
 
