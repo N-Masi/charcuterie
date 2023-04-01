@@ -1,14 +1,37 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color:#5d6747;
+body{
+  margin:0px;
+  padding:0px;
 }
-
+#background{
+  background-image: url("background1.JPG");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* adjust this value as per your needs */
+  filter: blur(8px);
+}
+#backButton{
+  position:absolute;
+  top:3%;
+  background-color:#7a6a8b; 
+  border: 1px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "VT323",sans-serif;
+  font-size: 30px;
+}
+#backButton:hover{
+  background-color: rgb(106, 50, 119);
+}
 canvas {
-    border: 1px solid #000000;
+    border: 1px solid #ad7e7e;
     margin-left: -288px;
     position:absolute;
     left : 50%;
+    top:4%;
 }
 #background {
   z-index: 3;
@@ -37,6 +60,7 @@ canvas {
   margin-left:-288px;
   left:50%;
   margin-top:577px;
+  top:4%;
   font-family: "VT323",sans-serif;
 }
 #scoreText {
@@ -70,5 +94,4 @@ canvas {
   top: 35%;
   left: 25% ;
 }
-
 

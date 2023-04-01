@@ -114,6 +114,7 @@ const char = {
 var heightLim = canvas.height - (.125*charImage.height)
 var widthLim = canvas.width -(.125*charImage.width)
 
+
 // Draw the sprite on the canvas
 function drawChar() {
 
@@ -147,6 +148,7 @@ function charLoop() {
     requestAnimationFrame(charLoop);
   }
 }
+
 
 // Get the canvas context for the food items
 const canvasItems = document.getElementById('gameObjects');
@@ -558,6 +560,7 @@ canvasCharSelect.addEventListener("click", function(event) {
   if (isCharSelect && isOverNas){
     charImage = nasSprite
     startGame()
+    
 }
   else if( isCharSelect && isOverNick){
     charImage = nickSprite

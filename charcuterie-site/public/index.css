@@ -2,9 +2,8 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .parallax {
-  background-image: url("../src/assets/background1.JPG");
+  background-image: url("src/background1.JPG");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
